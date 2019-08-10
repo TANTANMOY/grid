@@ -16,15 +16,18 @@
       padding: 10px;
     }
     .png_image{
+      
       width: 95px;
       height: 90px;
-      transition: transform .2s; /* Animation */
+      transition: transform .2s;
     }
   
     .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
   transform: scale(1.5); 
+  z-index: 1000;
+  box-shadow: 10px 10px 10px 10px #262626;
 }
 .mb-2{
   box-shadow: 10px 10px 10px #262626;
@@ -37,58 +40,67 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-3  zoom">
         <div class="p-8 mb-2 bg-info text-white ">
           <h3>Visual</h3>
-          <img class="png_image zoom" src='images/glass.png'>
+          <img class="png_image" src='images/glass.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>Kinesthetic</h3>
-          <img class="png_image zoom" src='images/hand.png'>
+          <img class="png_image " src='images/hand.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>auditory</h3>
-          <img class="png_image zoom" src='images/headphone.png'>
+          <img class="png_image " src='images/headphone.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>stress</h3>
-          <img class="png_image zoom" src='images/stress.png'>
+          <img class="png_image " src='images/stress.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>ease</h3>
-          <img class="png_image zoom" src='images/ease.png'>
+          <img class="png_image " src='images/ease.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3  zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>scribble</h3>
-          <img  class="png_image zoom" src='images/scribble.png'>
+          <img  class="png_image" src='images/scribble.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>trust</h3>
-          <img  class="png_image zoom" src='images/trust.png'>
+          <img  class="png_image " src='images/trust.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>teach</h3>
-          <img  class="png_image zoom" src='images/teach.png'>
+          <img  class="png_image"  src='images/teach.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 zoom">
         <div class="p-10 mb-2 bg-info text-white">
           <h3>copy</h3>
-          <img  class="png_image zoom" src='images/copy.png'>
+          <img  class="png_image " src='images/copy.png'>
+          <p>Lorem ipsum dolor sit amet consectetur </p>
         </div>
       </div>
     </div>
